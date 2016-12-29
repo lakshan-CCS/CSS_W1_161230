@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css">
         <!-- Bootstrap Select -->
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <!--<!--<link rel="stylesheet" href="assets/css/visitlk.css">-->
+    <link rel="stylesheet" href="assets/css/visitlk.css">
     <!-- test css -->
 
     <!-- test css -->
@@ -65,12 +65,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <!-- Navbar Start -->
               <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="<?php echo base_url(); ?>login"><i class="lnr lnr-home"></i> Home</a></li>
-                  <li><a href="<?php echo base_url(); ?>login"><i class="lnr lnr-home"></i> About Us</a></li>
-                  <li><a href="<?php echo base_url(); ?>login"><i class="lnr lnr-hand"></i> Services</a></li>
-                  <li><a href="<?php echo base_url(); ?>signup"><i class="lnr lnr-screen"></i> Packages</a></li>
+                  <li><a href="<?php echo base_url(); ?>"><i class="lnr lnr-home"></i> Home</a></li>
+                  <li><a href="<?php echo base_url(); ?>about-us"><i class="lnr lnr-home"></i> About Us</a></li>
+                  <li><a href="<?php echo base_url(); ?>services"><i class="lnr lnr-hand"></i> Services</a></li>
+                  <li><a href="<?php echo base_url(); ?>packages"><i class="lnr lnr-screen"></i> Packages</a></li>
                   <li class="postadd">
-                    <a class="btn btn-danger btn-post" href="<?php echo base_url(); ?>req-quote"><span class="fa fa-plus-circle"></span> Req Quote</a>
+                    <a class="btn btn-danger btn-post" href="<?php echo base_url(); ?>req-for-a-quote"><span class="fa fa-plus-circle"></span> Req Quote</a>
                   </li>
                 </ul>
               </div>
@@ -88,7 +88,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li><a href="<?php echo base_url(); ?>">Home</a></li>
                 <li><a href="<?php echo base_url(); ?>about-us">About us</a></li>
                 <li><a href="<?php echo base_url(); ?>category">Packages</a></li>
-                <li><a href="ads-details.html">Contact Us</a></li>
+                <li><a href="<?php echo base_url(); ?>contact-us">Contact Us</a></li>
             </ul><!--- End Menu -->
           </div> <!--- End Off Canvas Side Menu -->
           <div class="tbtn wow pulse" id="menu" data-wow-iteration="infinite" data-wow-duration="500ms" data-toggle="offcanvas" data-target=".navmenu">

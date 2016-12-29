@@ -20,10 +20,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <h3 class="block-title">Useful Links</h3>
             <ul class="menu">
               <li><a href="<?php echo base_url(); ?>">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Packages</a></li>
-              <li><a href="#">Requestfor a Quote</a></li>
+              <li><a href="<?php echo base_url(); ?>about-us">About Us</a></li>
+              <li><a href="<?php echo base_url(); ?>services">Services</a></li>
+              <li><a href="<?php echo base_url(); ?>packages">Packages</a></li>
+              <li><a href="<?php echo base_url(); ?>req-for-a-quote">Requestfor a Quote</a></li>
             </ul>
           </div>
         </div>
@@ -164,7 +164,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         })
     });
   </script>
-	
+
 <!-- Main JS  -->
 </body>
 </html>
